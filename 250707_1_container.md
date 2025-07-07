@@ -11,8 +11,6 @@
 
 - 컨테이너는 각각 `순서`와 `변경 가능성`에 따라 다르게 분류될 수 있다.
 
-![설명 텍스트]("C:\Users\hanst\Downloads\image.png")
-
 <aside>
 💡
 
