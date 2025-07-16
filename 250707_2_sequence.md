@@ -160,69 +160,16 @@
 
 - **`list.append(새로운 원소)`**
     - 리스트 마지막에 새로운 원소를 추가한다.
-    
-    ```python
-    numbers = [10, 20, 30, 40, 50]
-    numbers.append(60)  # 리스트 numbers의 마지막 위치에 60을 추가
-    
-    print(numbers)
-    ```
-    
-    ```
-    [10, 20, 30, 40, 50, 60]
-    ```
-    
 
 - **`list.pop()`**
     - 리스트 마지막 **인덱스**의 원소를 삭제한다.
-    
-    ```python
-    numbers = [10, 20, 30, 40, 50]
-    numbers.pop()  # 리스트 numbers의 마지막 원소 50을 삭제
-    
-    print(numbers)
-    ```
-    
-    ```
-    [10, 20, 30, 40]
-    ```
-    
 
 - **`list.pop(index)`**
     - 특정 **인덱스**의 원소를 삭제한다.
-    
-    ```python
-    numbers = [10, 20, 30, 40, 50]
-    numbers.pop(2)  # 리스트 numbers의 2번째 원소 30을 삭제
-    
-    print(numbers)
-    ```
-    
-    ```
-    [10, 20, 40, 50]
-    ```
-    
 
 - **`변수 = list.pop()`**
     - pop()은 삭제와 동시에 삭제한 원소를 값으로 돌려준다.
-    
-    ```python
-    numbers = [10, 20, 30, 40, 50]
-    pop_number = numbers.pop()  # 마지막 원소를 삭제하고 돌려준다
-    
-    print(pop_number)  # 50
-    
-    numbers = [60, 70, 80, 90, 100]
-    pop_number = numbers.pop(2)  # 2번째 원소를 삭제하고 돌려준다
-    
-    print(pop_number)  # 80
-    ```
-    
-    ```bash
-    50
-    80
-    ```
-    
+
 
 ## [2] 문자열(String)
 
